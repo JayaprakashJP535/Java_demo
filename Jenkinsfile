@@ -16,7 +16,7 @@ pipeline {
                 git 'https://github.com/JayaprakashJP535/Java_demo.git'
             }
         }
-
+        
         stage('Build') {
             steps {
                 script {
